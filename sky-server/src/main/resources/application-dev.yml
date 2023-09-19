@@ -2,10 +2,10 @@ sky:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     host: localhost
-    port: 3306
+    port: 3307
     database: sky_take_out
     username: root
-    password:
+    password: 123456
 
   alioss:
     endpoint:
@@ -14,7 +14,7 @@ sky:
     bucket-name: odentist-image-restore
 
   redis:
-      host: localhost
+      host: 10.1.10.50
       port: 6379
       # password: 123456
       database: 10
